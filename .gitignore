@@ -1,0 +1,29 @@
+# 构建产物
+build/
+.cmake-build-*/
+.acl-reports/
+
+# Qt Creator 自动生成的工程文件
+.qtcreator/
+CMakeLists.txt.user
+CMakeLists.txt.user.*
+
+# 编译中间文件
+*.o
+*.obj
+*.exe
+*.dll
+*.a
+*.lib
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Python（tools/ 下的绘图脚本）
+__pycache__/
+*.pyc
+
+docs/
+images/
+tools/
